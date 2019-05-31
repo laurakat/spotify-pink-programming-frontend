@@ -10,8 +10,17 @@ const readAccessTokenFromURL = () => {
 	}
 }
 
+const addTracksToDOM = (name, image) => {
+	const tracksDiv = document.getElementById('tracks');
+	const html = `<div class='track'>
+		<h3>${name}</h3>
+		<img src='${image}' />
+	</div>`
+	tracksDiv.innerHTML = tracksDiv.innerHTML + html
+}
+
 const getArtistTopTenTracks = () => {
-	console.log('get top 10 tracks')
+	console.log('get top 10 tracks');
 }
 
 readAccessTokenFromURL();
