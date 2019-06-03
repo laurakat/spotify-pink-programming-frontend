@@ -1,6 +1,4 @@
-This web frontend will allow you to search for an artist and display their Top 10 Tracks. 
-
-If you are logged in with a premium account, you will also be able to play the tracks by clicking on them.
+This is the starting code for the Spotify Pink Programming Workshop
 
 # spotify-pink-programming-frontend
 
